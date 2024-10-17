@@ -4,9 +4,9 @@ Python 3.9.13 <br>
 **INSTALLATION COMMAND**  <br>
 pip install llama-index <br>
 pip install llama-index-embeddings-huggingface <br>
+pip install llama-index-vector-stores-chroma <br>
+pip install llama-index-vector-stores-chroma <br>
 pip install chromadb <br>
-pip install llama-index-vector-stores-chroma <br>
-pip install llama-index-vector-stores-chroma <br>
 pip install streamlit <br>
 
 **PACKAGES INCLUDED** <br>
