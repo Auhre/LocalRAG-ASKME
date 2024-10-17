@@ -1,201 +1,203 @@
----------------------- PYTHON VERSION ---------------------------
-Python 3.9.13
--------------------- INSTALLATION COMMAND -----------------------
-pip install llama-index
-pip install llama-index-embeddings-huggingface
-pip install chromadb
-pip install llama-index-vector-stores-chroma
-pip install llama-index-vector-stores-chroma
-pip install streamlit
---------------------- PACKAGES INCLUDED ------------------------
-aiohappyeyeballs                         2.4.3
-aiohttp                                  3.10.10
-aiosignal                                1.3.1
-altair                                   5.4.1
-annotated-types                          0.7.0
-anyio                                    4.6.2.post1
-asgiref                                  3.8.1
-asttokens                                2.4.1
-async-timeout                            4.0.3
-attrs                                    24.2.0
-backoff                                  2.2.1
-bcrypt                                   4.2.0
-beautifulsoup4                           4.12.3
-blinker                                  1.8.2
-build                                    1.2.2.post1
-cachetools                               5.5.0
-certifi                                  2024.8.30
-charset-normalizer                       3.4.0
-chroma-hnswlib                           0.7.6
-chromadb                                 0.5.13
-click                                    8.1.7
-colorama                                 0.4.6
-coloredlogs                              15.0.1
-comm                                     0.2.2
-dataclasses-json                         0.6.7
-debugpy                                  1.8.7
-decorator                                5.1.1
-Deprecated                               1.2.14
-dirtyjson                                1.0.8
-distro                                   1.9.0
-durationpy                               0.9
-exceptiongroup                           1.2.2
-executing                                2.1.0
-fastapi                                  0.115.2
-filelock                                 3.16.1
-flatbuffers                              24.3.25
-frozenlist                               1.4.1
-fsspec                                   2024.9.0
-gitdb                                    4.0.11
-GitPython                                3.1.43
-google-auth                              2.35.0
-googleapis-common-protos                 1.65.0
-greenlet                                 3.1.1
-grpcio                                   1.66.2
-h11                                      0.14.0
-httpcore                                 1.0.6
-httptools                                0.6.2
-httpx                                    0.27.2
-huggingface-hub                          0.25.2
-humanfriendly                            10.0
-idna                                     3.10
-importlib_metadata                       8.4.0
-importlib_resources                      6.4.5
-ipykernel                                6.29.5
-ipython                                  8.18.1
-jedi                                     0.19.1
-Jinja2                                   3.1.4
-jiter                                    0.6.1
-joblib                                   1.4.2
-jsonschema                               4.23.0
-jsonschema-specifications                2024.10.1
-jupyter_client                           8.6.3
-jupyter_core                             5.7.2
-kubernetes                               31.0.0
-llama-cloud                              0.1.2
-llama-index                              0.11.18
-llama-index-agent-openai                 0.3.4
-llama-index-cli                          0.3.1
-llama-index-core                         0.11.18
-llama-index-embeddings-huggingface       0.3.1
-llama-index-embeddings-openai            0.2.5
-llama-index-indices-managed-llama-cloud  0.4.0
-llama-index-legacy                       0.9.48.post3
-llama-index-llms-ollama                  0.3.4
-llama-index-llms-openai                  0.2.14
-llama-index-multi-modal-llms-openai      0.2.2
-llama-index-program-openai               0.2.0
-llama-index-question-gen-openai          0.2.0
-llama-index-readers-file                 0.2.2
-llama-index-readers-llama-parse          0.3.0
-llama-index-vector-stores-chroma         0.2.1
-llama-parse                              0.5.8
-markdown-it-py                           3.0.0
-MarkupSafe                               3.0.1
-marshmallow                              3.22.0
-matplotlib-inline                        0.1.7
-mdurl                                    0.1.2
-minijinja                                2.2.0
-mmh3                                     5.0.1
-monotonic                                1.6
-mpmath                                   1.3.0
-multidict                                6.1.0
-mypy-extensions                          1.0.0
-narwhals                                 1.9.3
-nest-asyncio                             1.6.0
-networkx                                 3.2.1
-nltk                                     3.9.1
-numpy                                    1.26.4
-oauthlib                                 3.2.2
-ollama                                   0.3.3
-onnxruntime                              1.19.2
-openai                                   1.51.2
-opentelemetry-api                        1.27.0
-opentelemetry-exporter-otlp-proto-common 1.27.0
-opentelemetry-exporter-otlp-proto-grpc   1.27.0
-opentelemetry-instrumentation            0.48b0
-opentelemetry-instrumentation-asgi       0.48b0
-opentelemetry-instrumentation-fastapi    0.48b0
-opentelemetry-proto                      1.27.0
-opentelemetry-sdk                        1.27.0
-opentelemetry-semantic-conventions       0.48b0
-opentelemetry-util-http                  0.48b0
-orjson                                   3.10.7
-overrides                                7.7.0
-packaging                                24.1
-pandas                                   2.2.3
-parso                                    0.8.4
-pillow                                   10.4.0
-pip                                      22.0.4
-platformdirs                             4.3.6
-posthog                                  3.7.0
-prompt_toolkit                           3.0.48
-propcache                                0.2.0
-protobuf                                 4.25.5
-psutil                                   6.0.0
-pure_eval                                0.2.3
-pyarrow                                  17.0.0
-pyasn1                                   0.6.1
-pyasn1_modules                           0.4.1
-pydantic                                 2.9.2
-pydantic_core                            2.23.4
-pydeck                                   0.9.1
-Pygments                                 2.18.0
-pypdf                                    4.3.1
-PyPika                                   0.48.9
-pyproject_hooks                          1.2.0
-pyreadline3                              3.5.4
-python-dateutil                          2.9.0.post0
-python-dotenv                            1.0.1
-pytz                                     2024.2
-pywin32                                  308
-PyYAML                                   6.0.2
-pyzmq                                    26.2.0
-referencing                              0.35.1
-regex                                    2024.9.11
-requests                                 2.32.3
-requests-oauthlib                        2.0.0
-rich                                     13.9.2
-rpds-py                                  0.20.0
-rsa                                      4.9
-safetensors                              0.4.5
-scikit-learn                             1.5.2
-scipy                                    1.13.1
-sentence-transformers                    3.2.0
-setuptools                               58.1.0
-shellingham                              1.5.4
-six                                      1.16.0
-smmap                                    5.0.1
-sniffio                                  1.3.1
-soupsieve                                2.6
-SQLAlchemy                               2.0.36
-stack-data                               0.6.3
-starlette                                0.40.0
-streamlit                                1.39.0
-striprtf                                 0.0.26
-sympy                                    1.13.3
-tenacity                                 8.5.0
-threadpoolctl                            3.5.0
-tiktoken                                 0.8.0
-tokenizers                               0.20.1
-toml                                     0.10.2
-tomli                                    2.0.2
-torch                                    2.4.1
-tornado                                  6.4.1
-tqdm                                     4.66.5
-traitlets                                5.14.3
-transformers                             4.45.2
-typer                                    0.12.5
-typing_extensions                        4.12.2
-typing-inspect                           0.9.0
-tzdata                                   2024.2
-urllib3                                  2.2.3
-uvicorn                                  0.32.0
-watchdog                                 5.0.3
-watchfiles                               0.24.0
-wcwidth                                  0.2.13
-websocket-client                         1.8.0
-websockets                               13.1
-wrapt                                    1.16.0
-yarl                                     1.15.3
-zipp                                     3.20.2
+**PYTHON VERSION** <br>
+Python 3.9.13 <br>
+
+**INSTALLATION COMMAND**  <br>
+pip install llama-index <br>
+pip install llama-index-embeddings-huggingface <br>
+pip install chromadb <br>
+pip install llama-index-vector-stores-chroma <br>
+pip install llama-index-vector-stores-chroma <br>
+pip install streamlit <br>
+
+**PACKAGES INCLUDED** <br>
+aiohappyeyeballs                         2.4.3  <br>
+aiohttp                                  3.10.10 <br>
+aiosignal                                1.3.1 <br>
+altair                                   5.4.1 <br>
+annotated-types                          0.7.0 <br>
+anyio                                    4.6.2.post1 <br>
+asgiref                                  3.8.1 <br>
+asttokens                                2.4.1 <br>
+async-timeout                            4.0.3 <br>
+attrs                                    24.2.0 <br>
+backoff                                  2.2.1 <br>
+bcrypt                                   4.2.0 <br>
+beautifulsoup4                           4.12.3 <br>
+blinker                                  1.8.2 <br>
+build                                    1.2.2.post1 <br>
+cachetools                               5.5.0 <br>
+certifi                                  2024.8.30 <br>
+charset-normalizer                       3.4.0 <br>
+chroma-hnswlib                           0.7.6 <br>
+chromadb                                 0.5.13 <br>
+click                                    8.1.7 <br>
+colorama                                 0.4.6 <br>
+coloredlogs                              15.0.1 <br>
+comm                                     0.2.2 <br>
+dataclasses-json                         0.6.7 <br>
+debugpy                                  1.8.7 <br>
+decorator                                5.1.1 <br>
+Deprecated                               1.2.14 <br>
+dirtyjson                                1.0.8 <br>
+distro                                   1.9.0 <br>
+durationpy                               0.9 <br>
+exceptiongroup                           1.2.2 <br>
+executing                                2.1.0 <br>
+fastapi                                  0.115.2 <br>
+filelock                                 3.16.1 <br>
+flatbuffers                              24.3.25 <br>
+frozenlist                               1.4.1 <br>
+fsspec                                   2024.9.0 <br>
+gitdb                                    4.0.11 <br>
+GitPython                                3.1.43 <br>
+google-auth                              2.35.0 <br>
+googleapis-common-protos                 1.65.0 <br>
+greenlet                                 3.1.1 <br>
+grpcio                                   1.66.2 <br>
+h11                                      0.14.0 <br>
+httpcore                                 1.0.6 <br>
+httptools                                0.6.2 <br>
+httpx                                    0.27.2 <br>
+huggingface-hub                          0.25.2 <br>
+humanfriendly                            10.0 <br>
+idna                                     3.10 <br>
+importlib_metadata                       8.4.0 <br>
+importlib_resources                      6.4.5 <br>
+ipykernel                                6.29.5 <br>
+ipython                                  8.18.1 <br>
+jedi                                     0.19.1 <br>
+Jinja2                                   3.1.4 <br>
+jiter                                    0.6.1 <br>
+joblib                                   1.4.2 <br>
+jsonschema                               4.23.0 <br>
+jsonschema-specifications                2024.10.1 <br>
+jupyter_client                           8.6.3 <br>
+jupyter_core                             5.7.2 <br>
+kubernetes                               31.0.0 <br>
+llama-cloud                              0.1.2 <br>
+llama-index                              0.11.18 <br>
+llama-index-agent-openai                 0.3.4 <br>
+llama-index-cli                          0.3.1 <br>
+llama-index-core                         0.11.18 <br>
+llama-index-embeddings-huggingface       0.3.1 <br>
+llama-index-embeddings-openai            0.2.5 <br>
+llama-index-indices-managed-llama-cloud  0.4.0 <br>
+llama-index-legacy                       0.9.48.post3 <br>
+llama-index-llms-ollama                  0.3.4 <br>
+llama-index-llms-openai                  0.2.14 <br>
+llama-index-multi-modal-llms-openai      0.2.2 <br>
+llama-index-program-openai               0.2.0 <br>
+llama-index-question-gen-openai          0.2.0 <br>
+llama-index-readers-file                 0.2.2 <br>
+llama-index-readers-llama-parse          0.3.0 <br>
+llama-index-vector-stores-chroma         0.2.1 <br>
+llama-parse                              0.5.8 <br>
+markdown-it-py                           3.0.0 <br>
+MarkupSafe                               3.0.1 <br>
+marshmallow                              3.22.0 <br>
+matplotlib-inline                        0.1.7 <br>
+mdurl                                    0.1.2 <br>
+minijinja                                2.2.0 <br>
+mmh3                                     5.0.1 <br>
+monotonic                                1.6 <br>
+mpmath                                   1.3.0 <br>
+multidict                                6.1.0 <br>
+mypy-extensions                          1.0.0 <br>
+narwhals                                 1.9.3 <br>
+nest-asyncio                             1.6.0 <br>
+networkx                                 3.2.1 <br>
+nltk                                     3.9.1 <br>
+numpy                                    1.26.4 <br>
+oauthlib                                 3.2.2 <br>
+ollama                                   0.3.3 <br>
+onnxruntime                              1.19.2 <br>
+openai                                   1.51.2 <br>
+opentelemetry-api                        1.27.0 <br>
+opentelemetry-exporter-otlp-proto-common 1.27.0 <br>
+opentelemetry-exporter-otlp-proto-grpc   1.27.0 <br>
+opentelemetry-instrumentation            0.48b0 <br>
+opentelemetry-instrumentation-asgi       0.48b0 <br>
+opentelemetry-instrumentation-fastapi    0.48b0 <br>
+opentelemetry-proto                      1.27.0 <br>
+opentelemetry-sdk                        1.27.0 <br>
+opentelemetry-semantic-conventions       0.48b0 <br>
+opentelemetry-util-http                  0.48b0 <br>
+orjson                                   3.10.7 <br>
+overrides                                7.7.0 <br>
+packaging                                24.1 <br>
+pandas                                   2.2.3 <br>
+parso                                    0.8.4 <br>
+pillow                                   10.4.0 <br>
+pip                                      22.0.4 <br>
+platformdirs                             4.3.6 <br>
+posthog                                  3.7.0 <br>
+prompt_toolkit                           3.0.48 <br>
+propcache                                0.2.0 <br>
+protobuf                                 4.25.5 <br>
+psutil                                   6.0.0 <br>
+pure_eval                                0.2.3 <br>
+pyarrow                                  17.0.0 <br>
+pyasn1                                   0.6.1 <br>
+pyasn1_modules                           0.4.1 <br>
+pydantic                                 2.9.2 <br>
+pydantic_core                            2.23.4 <br>
+pydeck                                   0.9.1 <br>
+Pygments                                 2.18.0 <br>
+pypdf                                    4.3.1 <br>
+PyPika                                   0.48.9 <br>
+pyproject_hooks                          1.2.0 <br>
+pyreadline3                              3.5.4 <br>
+python-dateutil                          2.9.0.post0 <br>
+python-dotenv                            1.0.1 <br>
+pytz                                     2024.2 <br>
+pywin32                                  308 <br>
+PyYAML                                   6.0.2 <br>
+pyzmq                                    26.2.0 <br>
+referencing                              0.35.1 <br>
+regex                                    2024.9.11 <br>
+requests                                 2.32.3 <br>
+requests-oauthlib                        2.0.0 <br>
+rich                                     13.9.2 <br>
+rpds-py                                  0.20.0 <br>
+rsa                                      4.9 <br>
+safetensors                              0.4.5 <br>
+scikit-learn                             1.5.2 <br>
+scipy                                    1.13.1 <br>
+sentence-transformers                    3.2.0 <br>
+setuptools                               58.1.0 <br>
+shellingham                              1.5.4 <br>
+six                                      1.16.0 <br>
+smmap                                    5.0.1 <br>
+sniffio                                  1.3.1 <br>
+soupsieve                                2.6 <br>
+SQLAlchemy                               2.0.36 <br>
+stack-data                               0.6.3 <br>
+starlette                                0.40.0 <br>
+streamlit                                1.39.0 <br>
+striprtf                                 0.0.26 <br>
+sympy                                    1.13.3 <br>
+tenacity                                 8.5.0 <br>
+threadpoolctl                            3.5.0 <br>
+tiktoken                                 0.8.0 <br>
+tokenizers                               0.20.1 <br>
+toml                                     0.10.2 <br>
+tomli                                    2.0.2 <br>
+torch                                    2.4.1 <br>
+tornado                                  6.4.1 <br>
+tqdm                                     4.66.5 <br>
+traitlets                                5.14.3 <br>
+transformers                             4.45.2 <br>
+typer                                    0.12.5 <br>
+typing_extensions                        4.12.2 <br>
+typing-inspect                           0.9.0 <br>
+tzdata                                   2024.2 <br>
+urllib3                                  2.2.3 <br>
+uvicorn                                  0.32.0 <br>
+watchdog                                 5.0.3 <br>
+watchfiles                               0.24.0 <br>
+wcwidth                                  0.2.13 <br>
+websocket-client                         1.8.0 <br>
+websockets                               13.1 <br>
+wrapt                                    1.16.0 <br>
+yarl                                     1.15.3 <br>
+zipp                                     3.20.2 <br>
